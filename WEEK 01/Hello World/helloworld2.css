@@ -1,0 +1,31 @@
+h1 {
+    font-size: 90px;
+    color: purple;
+    background-color: orangered;
+}
+p  {
+   margin: 35px 0px;
+   color: orange; 
+}
+.intro  {
+    font-family: "Tahoma";
+}
+.list   {
+    font-family: "Tahoma";
+    color: green;
+}
+#sentence   {
+    color: indianred;
+    background-color: greenyellow;
+}
+h2  {
+    color: rebeccapurple;
+}
+#sentence2  {
+    background-color: orange;
+}
+a   {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: greenyellow;
+}

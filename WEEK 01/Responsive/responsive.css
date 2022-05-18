@@ -1,0 +1,90 @@
+*   {
+    box-sizing: border-box;
+}
+/*STYLE THE BODY*/
+body    {
+    font-family: Arial;
+    margin: 0;
+}
+.header  {
+    padding: 60px;
+    text-align: center;
+    background: #553175;
+    color: white;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+.navbar a   {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+@media screen and (max-width: 768px)   {
+    .navbar, .section {
+        flex-direction: column;
+    }
+}
+/* Extra small devices (phones, 600px and down)
+@media only scree and (max-width: 600px) {...}
+
+Small devices (prtrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screeen and (min-width: 1200px) {...}*/
+
+@media screen and (max-width:600px) {
+    .navbar {
+        font-size: 12px;
+    }
+}
+/*COLUMN CONTAINER*/
+.section    {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*LEFT COLUMN*/
+.left       {
+    flex: 0 1 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.right      {
+    flex: 0 1 70%;
+    background-color: white;
+    padding: 20px;
+}
+/*IMAGE PLACEHOLDER*/
+.imgph2     {
+    background-color: #aaa;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+}
+/*TALLER IMAGE PLACEHOLDER*/
+.imgph2     {
+    background-color: #aaa;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+/*FOOTER*/
+.footer     {
+    padding: 20px;
+    text-align: center;
+    background: #553175;
+    color: white;
+}
